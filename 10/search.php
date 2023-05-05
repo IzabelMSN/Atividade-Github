@@ -22,7 +22,7 @@ $pessoas = array(
         "idade" => 27,
         "cidade" => "Goiânia"
     ],  
-    
+
     "pessoas4" => [
         "nome" => "Louisie",
         "idade" => 36,
@@ -49,7 +49,10 @@ $pessoas = array(
      
 );
 
-
-
-
-
+foreach ($pessoas as $pessoas_k => $pessoas_v) {
+    foreach ($pessoas_v as $key => $value) {
+        if ($pessoas_v["idade"] >= 18 && $pessoas_v["cidade"] == $usuarioCidade) {
+            echo $key." = ".$value."\n"; 
+        }
+    }        
+}
