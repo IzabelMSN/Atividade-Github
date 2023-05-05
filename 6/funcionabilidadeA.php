@@ -1,12 +1,12 @@
 <?php
 
-echo "Funcionalidade 2";
+echo "Funcionalidade A";
 
-echo "Fazendo funcionalidade 2 -> Senha";
+echo "Fazendo funcionalidade A -> Senha";
 
 $senha = readline("Digite sua senha: ");
 
-while ($senha != "1234") {
+while ($senha != "weru781@") {
     echo "Senha incorreta. ";
     $senha = readline(" Digite a senha correta: ");
 }
