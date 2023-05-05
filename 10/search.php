@@ -22,7 +22,33 @@ $pessoas = array(
         "idade" => 27,
         "cidade" => "Goiânia"
     ],  
+    
+    "pessoas4" => [
+        "nome" => "Louisie",
+        "idade" => 36,
+        "cidade" => "Porto Alegre"
+    ],
+
+    "pessoas5" => [
+        "nome" => "Thomas",
+        "idade" => 23,
+        "cidade" => "Goiânia"
+    ],
+
+    "pessoas6" => [
+        "nome" => "Paula",
+        "idade" => 34,
+        "cidade" => "Porto Alegre"
+    ],
+
+    "pessoas7" => [
+        "nome" => "Iris",
+        "idade" => 21,
+        "cidade" => "Salvador"
+    ],
+     
 );
+
 
 
 
