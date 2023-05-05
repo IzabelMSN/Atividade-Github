@@ -1,5 +1,7 @@
 <?php
-$string = "Palavra";
+echo "Escreva uma palavra e descubra a ocorrência de cada caractere ->"."\n";
+
+$string = readline("Digite a palavra escolhida: ");
 
 $palavra = strlen($string);
 
