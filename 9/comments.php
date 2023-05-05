@@ -8,3 +8,8 @@ echo "გამარჯობა მსოფლიო!"."\n";
 
 echo "alo lemonn!"."\n";
 
+echo "akkam jirtu addunyaa!"."\n";
+
+echo "Привет, мир!"."\n";
+
+echo "こんにちは世界！"."\n";
